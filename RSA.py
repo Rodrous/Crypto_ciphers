@@ -75,8 +75,6 @@ def main():
 
 
     elif choice == 1:
-        global e
-        e = 7
         cipher = int(input("Enter cipher:- "))
         print(f"Decrypted cipher is {decrypt(cipher)}")
 
